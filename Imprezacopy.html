@@ -18,24 +18,31 @@
 			<div class="row">
 				<div class="col-sm-3">
 					<div class="navbar-header">
-					<button type="button" class="navbar-toggle" id="navtog" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>                        
-					</button>
-					<a class="navbar-brand" href="#">Impreza</a>
+						<button type="button" class="navbar-toggle" id="navtog" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand" href="#">Impreza</a>
 					</div>
 				</div>
 				<div class="col-sm-3">	  			
 				</div>
-				<div class="col-sm-6 col-md-9 col-xs-12">
+				<div class="col-sm-9 col-md-9 col-xs-12">
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="navatag active" href="#">HOME</a></li>
-							<li><a class="navatag" href="#">PROJECTS</a></li>
-							<li><a class="navatag" href="#">SERVICES</a></li>
-							<li><a class="navatag" href="#">ABOUT</a></li>
-							<li><a class="navatag" href="#">CONTACT</a></li>
+							<li><a class="navatag active" href="#1">HOME</a></li>
+							<li><a class="navatag" href="#2">PROJECTS</a></li>
+							<li><a class="navatag" href="#3">SERVICES</a></li>
+							<li class="about-list"><a class="navatag" href="#4">ABOUT</a>
+								<ul class="list-about">
+									<li><a class="navatag-a" href="#5">Our Advantage</a></li>
+									<li><a class="navatag-a" href="#6">Our Client</a></li>
+									<li><a class="navatag-a" href="#7">Our Team</a></li>
+									<li><a class="navatag-a" href="#8">Latest Post</a></li>
+								</ul>
+							</li>								
+							<li><a class="navatag" href="#9">CONTACT</a></li>
 							<li><a><i class="fa fa-search" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
@@ -43,7 +50,7 @@
 			</div>	    
 		</div>
 		</nav>
-		<section>
+		<section id="1">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-12 col-xs-12 top-banner-image">
@@ -72,7 +79,7 @@
 				</div>		  
 			</div>
 		</section>		
-		<section class="our-projects">
+		<section class="our-projects" id="2">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="text-section">
@@ -82,7 +89,36 @@
 					</div>
 					<div class="seperator-section"></div>
 					<div class="list-items">
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<div id="popup1">
+							<section>
+								<div class="pop-1-img">
+									<img src="Images/image-12-e1432216302448.jpg">
+								</div>
+								<div class="col-sm-12 pop-1-text">
+									<p class="text-center">PASSION<br>										
+									NEVER FAILS</p>
+								</div>
+							</section>
+							<section>
+								<div class="pop-2-img">
+									<img src="Images/download-copy.jpeg">
+								</div>
+								<div class="colsm-12 pop-2-text">
+									<p class="text-center">Second<br>										
+									NEVER FAILS</p>
+								</div>
+							</section>
+							<section>
+								<div class="pop-3-img">
+									<img src="Images/image-5-copy.jpg">
+								</div>
+								<div class="colsm-12 pop-3-text">
+									<p class="text-center">Third<br>										
+									NEVER FAILS</p>
+								</div>
+							</section>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 popup1_open">
 							<div class="img-section">
 								<img src="Images/adults-coffee-colleagues-1323592.jpg">
 							</div>
@@ -90,7 +126,12 @@
 								<a href="#">Protfolio Item One</a>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<section id="popup2">
+							<h2>My popup 2</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+						</section>
+						<div class="col-md-3 col-sm-6 col-xs-12 popup2_open">
 							<div class="img-section">
 								<img class="img-responsive" src="Images/6-1200x625.jpg">
 							</div>
@@ -98,7 +139,12 @@
 								<a href="#">Protfolio Item Two</a>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<section id="popup3">
+							<h2>My popup 3</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+						</section>
+						<div class="col-md-3 col-sm-6 col-xs-12 popup3_open">
 							<div class="img-section">
 								<img src="Images/Web-Development-Company.jpg">
 							</div>
@@ -106,7 +152,12 @@
 								<a href="#">Protfolio Item Three</a>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<section id="popup4">
+							<h2>My popup 4</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+						</section>
+						<div class="col-md-3 col-sm-6 col-xs-12 popup4_open">
 							<div class="img-section">
 								<img src="Images/slider_1.jpg">
 							</div>						
@@ -114,7 +165,12 @@
 								<a href="#">Protfolio Item Four</a>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<section id="popup5">
+							<h2>My popup 3</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+						</section>
+						<div class="col-md-3 col-sm-6 col-xs-12 popup5_open">
 							<div class="img-section">
 								<img src="Images/slider_1.jpg">
 							</div>						
@@ -122,15 +178,25 @@
 								<a href="#">Protfolio Item Five</a>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<section id="popup6">
+							<h2>My popup 3</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+						</section>
+						<div class="col-md-3 col-sm-6 col-xs-12 popup6_open">
 							<div class="img-section">
 								<img src="Images/Web-Development-Company.jpg">
 							</div>
 							<div class="inner-text-section">
 								<a href="#">Protfolio Item Six</a>
 							</div>
-						</div>					
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						</div>
+						<section id="popup7">
+							<h2>My popup 3</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+						</section>					
+						<div class="col-md-3 col-sm-6 col-xs-12 popup7_open">
 							<div class="img-section">
 								<img src="Images/6-1200x625.jpg">
 							</div>						
@@ -138,7 +204,12 @@
 								<a href="#">Protfolio Item Seven</a>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<section id="popup8">
+							<h2>My popup 3</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eos, accusamus delectus harum nostrum fugiat quas tempora excepturi nobis incidunt quisquam facilis, atque ullam. Quidem animi dolorem quasi facere suscipit.</p>
+						</section>
+						<div class="col-md-3 col-sm-6 col-xs-12 popup8_open">
 							<div class="img-section">
 								<img src="Images/adults-coffee-colleagues-1323592.jpg">
 							</div>						
@@ -150,7 +221,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="bg-secondary ">
+		<section class="bg-secondary" id="3">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="text-section">
@@ -220,7 +291,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="img-back-section ">
+		<section class="img-back-section" id="4">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="image-banner"></div>
@@ -253,7 +324,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="special-things ">
+		<section class="special-things" id="5">
 			<div class="container">
 				<div class="row margin">
 					<div class="col-md-12">
@@ -294,7 +365,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="our-team-section ">
+		<section class="our-team-section" id="6">
 			<div class="container">
 				<div class="row margin">
 					<div class="text-section">
@@ -304,21 +375,21 @@
 					</div>
 					<div class="seperator-section"></div>
 					<div class="round-img-section">					
-						<div class="col-md-4 col-sm-12">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 							<img src="Images/dummyimage.jpg">
 							<div class="text-area text-center">
 								<h4><span>Saurabh Dixit</span></h4>
 								<h3>Founder/Director</h3>
 							</div>						
 						</div>
-						<div class="col-md-4 col-sm-12">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 							<img src="Images/dummyimage.jpg">
 							<div class="text-area text-center">
 								<h4><span>Akanksha Dixit</span></h4>
 								<h3>Director</h3>
 							</div>						
 						</div>
-						<div class="col-md-4 col-sm-12">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 							<img src="Images/dummyimage.jpg">
 							<div class="text-area text-center">
 								<h4><span>Ashish Kumar</span></h4>
@@ -329,12 +400,12 @@
 				</div>
 			</div>
 		</section>
-		<section class="slider-section">
+		<section class="slider-section" id="7">
 			<div class="overlay-section" style="background: rgba(0,0,0,0.6)"></div>
 			<div class="container">
 				<div class="row margin">
 					<div class="col-md-12">
-						<div class="text-area text-center">
+						<div class="text-area text-center margin">
 							<h3><strong>The people who have trusted us so far</strong></h3>
 						</div>
 					</div>
@@ -400,7 +471,7 @@
 							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 						</div>							
 					</div>
-					<div class="col-md-12 heroSlider-fixed">
+					<div class="col-md-12 heroSlider-fixed second">
 						<div class="slider responsive1">
 							<div class="col-sm-3 col-xs-12">
 								<div class="inner-owl-border1">
@@ -438,104 +509,104 @@
 				</div>
 			</div>
 		</section>
-		<section class="latest-post ">
+		<section class="latest-post" id="8">
 			<div class="container">
 				<div class="row margin">
 					<div class="text-section">
 						<h2 class="text-center"><strong><span class="highlight highlight_primary">LATEST</span> POSTS</strong></h2>
 					</div>
-					<div class="col-md-4 margin">
+					<div class="col-md-4">
 						<div class="img-latest-port">
 							<img src="Images/download.png">
 						</div>
-						<div class="latest-text-area text-center">
+						<div class="latest-text-area text-center text-area-lp">
 							<h2><a>Satisfaction Lies in the Effort</a></h2>
 							<div class="col-sm-12 col-xs-12">
 								<div class="col-sm-6 col-xs-12">
 									<i class="fa fa-clock-o" aria-hidden="true">15 May, 2019</i>
 								</div>
 								<div class="col-sm-6 col-xs-12">
-										<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
+									<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
 								</div>
 							</div>							
 						</div>
 					</div>
-					<div class="col-md-4 margin">
+					<div class="col-md-4">
 						<div class="img-latest-port">
 							<img src="Images/photo-1416339426675-1f96fd81b653-e1432216598976-380x253.jpeg">
 						</div>
-						<div class="latest-text-area text-center">
+						<div class="latest-text-area text-center text-area-lp">
 							<h2><a>Photography is the Science</a></h2>
 							<div class="col-sm-12 col-xs-12">
 								<div class="col-sm-6 col-xs-12">
 									<i class="fa fa-clock-o" aria-hidden="true">15 May, 2019</i>
 								</div>
 								<div class="col-sm-6 col-xs-12">
-										<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
+									<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 margin">
+					<div class="col-md-4">
 						<div class="img-latest-port">
 							<img src="Images/blog1-380x253.jpeg">
 						</div>
-						<div class="latest-text-area text-center">
+						<div class="latest-text-area text-center text-area-lp">
 							<h2><a>Imagination Encircles the World</a></h2>
 							<div class="col-sm-12 col-xs-12">
 								<div class="col-sm-6 col-xs-12">
 									<i class="fa fa-clock-o" aria-hidden="true">15 May, 2019</i>
 								</div>
 								<div class="col-sm-6 col-xs-12">
-										<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
+									<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 margin">
+					<div class="col-md-4">
 						<div class="img-latest-port">
 							<img src="Images/blog2-380x253.jpg">
 						</div>
-						<div class="latest-text-area text-center">
+						<div class="latest-text-area text-center text-area-lp">
 							<h2><a>This Post Looks Beautiful even with Long Interesting Title</a></h2>
 							<div class="col-sm-12 col-xs-12">
 								<div class="col-sm-6 col-xs-12">
 									<i class="fa fa-clock-o" aria-hidden="true">15 May, 2019</i>
 								</div>
 								<div class="col-sm-6 col-xs-12">
-										<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
+									<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 margin">
+					<div class="col-md-4">
 						<div class="img-latest-port">
 							<img src="Images/agency2-380x253.jpg">
 						</div>
-						<div class="latest-text-area text-center">
+						<div class="latest-text-area text-center text-area-lp">
 							<h2><a>Another Interesting Single Post</a></h2>
 							<div class="col-sm-12 col-xs-12">
 								<div class="col-sm-6 col-xs-12">
 									<i class="fa fa-clock-o" aria-hidden="true">15 May, 2019</i>
 								</div>
 								<div class="col-sm-6 col-xs-12">
-										<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
+									<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 margin">
+					<div class="col-md-4">
 						<div class="img-latest-port">
 							<img src="Images/download14-e1432542751481-380x253.jpg">
 						</div>
-						<div class="latest-text-area text-center">
+						<div class="latest-text-area text-center text-area-lp">
 							<h2><a>New Post for Clever People</a></h2>
 							<div class="col-sm-12 col-xs-12">
 								<div class="col-sm-6 col-xs-12">
 									<i class="fa fa-clock-o" aria-hidden="true">15 May, 2019</i>
 								</div>
 								<div class="col-sm-6 col-xs-12">
-										<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
+									<i class="fa fa-comments-o" aria-hidden="true">No Comments</i>
 								</div>
 							</div>
 						</div>
@@ -546,7 +617,7 @@
 		<section class="">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-3 col-xs-12 text-center">
+					<div class="col-md-3 col-sm-4 col-xs-12 text-center">
 						<div class="text-number">
 							<h2><span>128</span></h2>
 						</div>
@@ -554,7 +625,7 @@
 							<h4>Clients satisfied</h4>
 						</div>
 					</div>
-					<div class="col-sm-3 col-xs-12 text-center second">
+					<div class="col-md-3 col-sm-8 col-xs-12 text-center second">
 						<div class="text-number">
 							<h2><span>256</span></h2>
 						</div>
@@ -562,7 +633,7 @@
 							<h4>Projects Completed</h4>
 						</div>
 					</div>
-					<div class="col-sm-6 col-xs-12 text-center third">
+					<div class="col-md-6 col-sm-8 col-xs-12 text-center third">
 						<div class="row inner">
 							<div class="col-sm-3 col-xs-6">
 								<i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -581,8 +652,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="contact-us">
-			
+		<section class="contact-us" id="9">			
 			<div class="container">
 				<div class="row">
 					<div class="text-section">
@@ -652,14 +722,26 @@
 					</div>					
 				</div>
 			</div>
-		</section>
+		</section>		
 	</section>
 	
-	<footer>	  
+	<footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>	
+		<script type="text/javascript" src="jquery.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+		<script>
+			$('#popup1').popup();
+			$('#popup2').popup();
+			$('#popup3').popup();
+			$('#popup4').popup();
+			$('#popup5').popup();
+			$('#popup6').popup();
+			$('#popup7').popup();
+			$('#popup8').popup();			
+		</script>
 	</footer>	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
-	<script type="text/javascript" src="jquery.js"></script>
 </body>
 </html>
