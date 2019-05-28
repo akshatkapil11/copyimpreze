@@ -643,10 +643,10 @@ textarea:focus, .cintact-us .col-sm-12 i:focus {
     content: "";
     position: absolute;
     height: 0px;
-    width: 0px;
+    width: 100%;
     top: -110px;
     left: 0px;
-    border-width: 0px 866px 60px; 
+    border-width: 0px 952px 60px; 
     border-style: solid;
     border-color: #fff #fff #01ff7000;
     transform: rotate(180deg);
